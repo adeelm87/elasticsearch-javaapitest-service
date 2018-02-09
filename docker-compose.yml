@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  elk:
+    image: sebp/elk:612
+    container_name: elk
+    ports:
+      - 5601:5601
+      - 9200:9200

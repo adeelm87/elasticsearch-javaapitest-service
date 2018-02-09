@@ -1,0 +1,6 @@
+service:
+  elasticsearch:
+    hostname: localhost
+    port: 9200
+    index: activitylog
+    type: user
